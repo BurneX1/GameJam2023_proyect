@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 27a262ac83b8eeb4aa61fb3b20a6f755
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -600253601474052624
+    second: blanco_0
+  - first:
+      213: -7693595423316074552
+    second: blanco_1
+  - first:
+      213: 7540348092827800437
+    second: blanco_2
+  - first:
+      213: -1516045531662839791
+    second: blanco_3
+  - first:
+      213: 4510321181746611277
+    second: blanco_4
+  - first:
+      213: -2404466170127590965
+    second: blanco_5
+  - first:
+      213: -6723852819624884224
+    second: blanco_6
+  - first:
+      213: -2619886550234549759
+    second: blanco_7
+  - first:
+      213: 5297260828457016489
+    second: blanco_8
+  - first:
+      213: 6747544413780725988
+    second: blanco_9
+  - first:
+      213: 2165411554795785917
+    second: blanco_10
+  - first:
+      213: 2286354196838355133
+    second: blanco_11
+  - first:
+      213: 1750920703383062703
+    second: blanco_12
+  - first:
+      213: -2671103543232454148
+    second: blanco_13
+  - first:
+      213: -5106128454872310913
+    second: blanco_14
+  - first:
+      213: 1067706775973155399
+    second: blanco_15
+  - first:
+      213: -1699223441496283165
+    second: blanco_16
+  - first:
+      213: -5479795364158604907
+    second: blanco_17
+  - first:
+      213: 109841131231189605
+    second: blanco_18
+  - first:
+      213: 4324804729038592576
+    second: blanco_19
+  - first:
+      213: 8569745189096984183
+    second: blanco_20
+  - first:
+      213: -205428584003523390
+    second: blanco_21
+  - first:
+      213: -2573116443780190901
+    second: blanco_22
+  - first:
+      213: -6189619836497894276
+    second: blanco_23
+  - first:
+      213: 5829289978803684003
+    second: blanco_24
+  - first:
+      213: -4801187605652774348
+    second: blanco_25
+  - first:
+      213: -6966139967872020800
+    second: blanco_26
+  - first:
+      213: -7266604684597050538
+    second: blanco_27
+  - first:
+      213: 8896761359951433883
+    second: blanco_28
+  - first:
+      213: 6162829936011804059
+    second: blanco_29
+  - first:
+      213: 5348643309947985076
+    second: blanco_30
+  - first:
+      213: 3316912720753468600
+    second: blanco_31
+  - first:
+      213: -4938720393958419666
+    second: blanco_32
+  - first:
+      213: 3054583190895443770
+    second: blanco_33
+  - first:
+      213: 7383213025574806496
+    second: blanco_34
+  - first:
+      213: 221131787443516118
+    second: blanco_35
+  - first:
+      213: 5873157809342142577
+    second: blanco_36
+  - first:
+      213: -3230057002524671024
+    second: blanco_37
+  - first:
+      213: 2288564468985298887
+    second: blanco_38
+  - first:
+      213: 3550416837612511889
+    second: blanco_39
+  - first:
+      213: -8449300670076077320
+    second: blanco_40
+  - first:
+      213: 8671349109329577975
+    second: blanco_41
+  - first:
+      213: 7096192199503124259
+    second: blanco_42
+  - first:
+      213: -6231736385711921712
+    second: blanco_43
+  - first:
+      213: -8339698311565348200
+    second: blanco_44
+  - first:
+      213: -3226009823840223516
+    second: blanco_45
+  - first:
+      213: 969438589613552904
+    second: blanco_46
+  - first:
+      213: 5011667508386242397
+    second: blanco_47
+  - first:
+      213: 6628962654894889102
+    second: blanco_48
+  - first:
+      213: -6713597467239036790
+    second: blanco_49
+  - first:
+      213: 1545384326103485255
+    second: blanco_50
+  - first:
+      213: 2918311660160054340
+    second: blanco_51
+  - first:
+      213: -5341719190521377638
+    second: blanco_52
+  - first:
+      213: -5604608013274543091
+    second: blanco_53
+  - first:
+      213: -1887499907501120844
+    second: blanco_54
+  - first:
+      213: 5241853838546049111
+    second: blanco_55
+  - first:
+      213: 7619555724522054993
+    second: blanco_56
+  - first:
+      213: 6555421895013221685
+    second: blanco_57
+  - first:
+      213: -8198887034102606587
+    second: blanco_58
+  - first:
+      213: 8000499853809901277
+    second: blanco_59
+  - first:
+      213: -6240994209099164340
+    second: blanco_60
+  - first:
+      213: -7169007950065638346
+    second: blanco_61
+  - first:
+      213: 7459744625653443221
+    second: blanco_62
+  - first:
+      213: -139444466959790532
+    second: blanco_63
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blanco_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd7dfc97887ba7f0800000000000000
+      internalID: -600253601474052624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blanco_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf9ca399bbda3590800000000000000
+      internalID: -7693595423316074552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blanco_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5739bc3d3a2b4a860800000000000000
+      internalID: 7540348092827800437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blanco_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1101bed0f9ce5fae0800000000000000
+      internalID: -1516045531662839791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

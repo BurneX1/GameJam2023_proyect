@@ -7,15 +7,25 @@ public class Attack : MonoBehaviour
     public string colllisionTag;
     public AttackType atk;
     public GameObject collideObj;
+    private Vector3 collPos;
     public void SetUpAttack()
     {
-        if (collideObj != null)
+        collPos = new Vector3(
+            transform.position.x + (atk.posVariation.x) * transform.localScale.x,
+            transform.position.y + (atk.posVariation.y) * transform.localScale.y,
+            transform.position.z);
+        if (collideObj == null)
         {
-            collideObj = Instantiate(new GameObject("collision"), gameObject.transform);
+ 
+            collideObj = new GameObject("collision");
+            collideObj.name = "Collider";
             collideObj.SetActive(false);
+            collideObj.AddComponent<BoxCollider2D>();
+            //Añadir componente de triger de daño
         }
 
-        collideObj.transform.position = 
+        
+        collideObj.transform.position = new Vector3(collPos.x, collPos.y, collPos.z);
         collideObj.GetComponent<BoxCollider2D>().size = atk.hitRadio;
         Debug.Log("Attack SetUp");
     }
@@ -35,6 +45,11 @@ public class Attack : MonoBehaviour
 
     public void StopAtack()
     {
+        if (collideObj.activeSelf == true)
+        {
+            collideObj.SetActive(false);
+        }
+
         Debug.Log("Atack Stop");
     }
 
@@ -44,12 +59,12 @@ public class Attack : MonoBehaviour
        
         Gizmos.color = new Color(0, 1, 1, 0.12f);
 
-        Vector3 collPos = new Vector3(
-            transform.position.x + (atk.posVariation.x) * transform.localScale.x,
-            transform.position.y + (atk.posVariation.y) * transform.localScale.y,
-            transform.position.z);
-        Gizmos.DrawLine(transform.position, collPos);
+        Vector3 colPos = new Vector3(
+                transform.position.x + (atk.posVariation.x) * transform.localScale.x,
+                transform.position.y + (atk.posVariation.y) * transform.localScale.y,
+                transform.position.z);
+        Gizmos.DrawLine(transform.position, colPos);
 
-        Gizmos.DrawCube(collPos, atk.hitRadio);
+        Gizmos.DrawCube(colPos, atk.hitRadio);
     }
 }
