@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: 678621afcfcbe4240b71f39ad5c48735
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8446041368115357277
+    second: Nivel_1_infectadoAtlas_0
+  - first:
+      213: 5908586409332050631
+    second: Nivel_1_infectadoAtlas_1
+  - first:
+      213: -6948428245529923298
+    second: Nivel_1_infectadoAtlas_2
+  - first:
+      213: 8412546004336897410
+    second: Nivel_1_infectadoAtlas_3
+  - first:
+      213: 284538401175181724
+    second: Nivel_1_infectadoAtlas_4
+  - first:
+      213: -5370668064442899592
+    second: Nivel_1_infectadoAtlas_5
+  - first:
+      213: -3953892868905117321
+    second: Nivel_1_infectadoAtlas_6
+  - first:
+      213: 8191729597678876595
+    second: Nivel_1_infectadoAtlas_7
+  - first:
+      213: -1715435222347216427
+    second: Nivel_1_infectadoAtlas_8
+  - first:
+      213: -6611728782684385074
+    second: Nivel_1_infectadoAtlas_9
+  - first:
+      213: 1458155510763399781
+    second: Nivel_1_infectadoAtlas_10
+  - first:
+      213: -8613682075017627991
+    second: Nivel_1_infectadoAtlas_11
+  - first:
+      213: -6851094385664240459
+    second: Nivel_1_infectadoAtlas_12
+  - first:
+      213: -4053360288875773857
+    second: Nivel_1_infectadoAtlas_13
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,7 +83,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -102,7 +144,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 802
+        width: 251
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5625c010ed563570800000000000000
+      internalID: 8446041368115357277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 801
+        width: 172
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca00f4c8048ff150800000000000000
+      internalID: 5908586409332050631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 794
+        width: 277
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11f5e53359329f90800000000000000
+      internalID: -6948428245529923298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 649
+        width: 138
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28de125f40e5fb470800000000000000
+      internalID: 8412546004336897410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 664
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9911071b22e2f300800000000000000
+      internalID: 284538401175181724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 671
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873a854b9dd8775b0800000000000000
+      internalID: -5370668064442899592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 668
+        width: 235
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779d5f46263f029c0800000000000000
+      internalID: -3953892868905117321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 651
+        width: 132
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7f3bddaaedea170800000000000000
+      internalID: 8191729597678876595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 301
+        width: 233
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d90dc801cc8138e0800000000000000
+      internalID: -1715435222347216427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 500
+        width: 178
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec01fdcd3bb6e34a0800000000000000
+      internalID: -6611728782684385074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 554
+        width: 142
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aa45e16b86c3410800000000000000
+      internalID: 1458155510763399781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 559
+        width: 137
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6bc6e3acd067880800000000000000
+      internalID: -8613682075017627991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 301
+        width: 559
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b45fc374f50ce0a0800000000000000
+      internalID: -6851094385664240459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_infectadoAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4
+        width: 982
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5082eafa429fb7c0800000000000000
+      internalID: -4053360288875773857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

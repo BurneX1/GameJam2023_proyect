@@ -63,7 +63,7 @@ namespace Platformer.UI
 
         void Update()
         {
-            if (Input.GetButtonDown("Menu"))
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
                 ToggleMainMenu(show: !showMainCanvas);
             }

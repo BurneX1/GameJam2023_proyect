@@ -9,7 +9,8 @@ public class Attack : MonoBehaviour
     public GameObject collideObj;
     private Vector3 collPos;
     public int dir = 1;
-    private float timer;
+    private float timer = 0;
+    private bool timerOn;
     public void SetUpAttack()
     {
         collPos = new Vector3(
@@ -39,9 +40,21 @@ public class Attack : MonoBehaviour
         Debug.Log("Attack SetUp");
     }
 
+    private void Update()
+    {
+        timeToDisable();
+    }
     public void timeToDisable()
     {
-
+        if(timerOn)
+        {
+            timer += Time.deltaTime;
+            if(timer>=atk.atkDur)
+            {
+                timer = 0;
+                StopAtack();
+            }
+        }
     }
     public void Atack()
     {
@@ -51,6 +64,7 @@ public class Attack : MonoBehaviour
         if (collideObj.activeSelf ==false)
         {
             collideObj.SetActive(true);
+            timerOn = true;
         }
 
         Debug.Log("Atack Start");
