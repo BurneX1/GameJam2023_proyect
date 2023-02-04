@@ -2,18 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "New Attack", menuName = "Attack")]
 public class AttackType : ScriptableObject
 {
-    public string name;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string atackName;
+    public Vector2 posVariation;
+    public Vector2 hitRadio;
+    public AnimatorOverrideController overrAnim;
+    public int dmg;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
