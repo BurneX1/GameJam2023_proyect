@@ -81,6 +81,10 @@ namespace Platformer.Mechanics
                 if(Input.GetKeyDown(KeyCode.W))
                 {
                     atk.Atack();
+                    audioSource.PlayOneShot(atk.atk.audioClip);
+                    //atk.atk.audioAtaque.Play();
+
+                    audioSource.Play();
                 }
 
                 if(Input.GetKeyDown(KeyCode.E))

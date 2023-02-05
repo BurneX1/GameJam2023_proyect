@@ -12,5 +12,5 @@ public class AttackType : ScriptableObject
     public AnimatorOverrideController overrAnim;
     public int dmg;
     public Sprite icon;
-
+    public AudioClip audioClip;
 }

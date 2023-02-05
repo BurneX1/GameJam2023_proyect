@@ -43,12 +43,4 @@ public class BaseLife : MonoBehaviour
         plusLife = Mathf.Abs(plusLife);
         maxHealth += plusLife;
     }
-
-    private void Update()
-    {
-        if (actualHealth <= 0)
-        {
-            gameObject.SetActive(false);
-        }
-    }
 }

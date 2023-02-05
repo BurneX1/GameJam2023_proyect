@@ -4,7 +4,7 @@ using UnityEngine;
 using Platformer.Mechanics;
 using System.Linq;
 using System;
-
+using UnityEngine.Events;
 public class RootZone : MonoBehaviour
 {
 
@@ -12,7 +12,12 @@ public class RootZone : MonoBehaviour
 
     public SpriteRenderer RootInfectedSpriteRender;
 
+    
+
     public float rootHealt = 0;
+    private bool healthCheck = false;
+
+    public UnityEvent onClearEvent;
 
 
     // Start is called before the first frame update
@@ -28,6 +33,7 @@ public class RootZone : MonoBehaviour
     {
         if ((DateTime.Now - lastUpdate).Milliseconds > 100)
             UpdateRootState();
+        CheckSelfHealth();
     }
 
     private void UpdateRootState()
@@ -73,7 +79,20 @@ public class RootZone : MonoBehaviour
         if (RootInfectedSpriteRender) RootInfectedSpriteRender.color = new Color(1, 1, 1, 1- rootHealt);
     }
 
+    private void CheckSelfHealth()
+    {
+        if(rootHealt < 1)
+        {
+            return;
+        }
 
+        if(healthCheck == false)
+        {
+            Debug.Log(gameObject.name + " " + "healthCheckrealized");
+            healthCheck = true;
+            onClearEvent.Invoke();
+        }
+    }
     private DateTime lastUpdate;
 
 
