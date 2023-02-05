@@ -12,6 +12,8 @@ public class RootZone : MonoBehaviour
 
     public SpriteRenderer RootInfectedSpriteRender;
 
+    public float rootHealt = 0;
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,7 +39,7 @@ public class RootZone : MonoBehaviour
 
         float rootZoneStart = this.transform.position.x;
         float rootZoneEnd = this.transform.position.x + 10;
-        Debug.Log("Start: " + rootZoneStart + " End: " + rootZoneEnd);
+        //Debug.Log("Start: " + rootZoneStart + " End: " + rootZoneEnd);
 
         //Debug.Log("Location of root: " + rootZoneEnd);
 
@@ -51,19 +53,18 @@ public class RootZone : MonoBehaviour
         } 
 
        // Object[] enemies = ObjectsOfType(typeof(EnemyController));
-        Debug.Log("Number of enemies in zone: " + countEnemies);
+        //Debug.Log("Number of enemies in zone: " + countEnemies);
 
         int clampCountEnemies = countEnemies > 4 ? 4 : countEnemies;
 
         rootHealt = 1.0f - clampCountEnemies / 4.0f;
-        Debug.Log("rootHealt: " + rootHealt);
+        //Debug.Log("rootHealt: " + rootHealt);
 
 
         if (RootHealtySpriteRender) RootHealtySpriteRender.color = new Color(1, 1, 1, rootHealt);
         if (RootInfectedSpriteRender) RootInfectedSpriteRender.color = new Color(1, 1, 1, 1- rootHealt);
     }
 
-    private float rootHealt = 1;
 
     private DateTime lastUpdate;
 
