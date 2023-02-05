@@ -5,7 +5,7 @@ using Platformer.Gameplay;
 using static Platformer.Core.Simulation;
 using Platformer.Model;
 using Platformer.Core;
-
+using UnityEngine.UI;
 namespace Platformer.Mechanics
 {
     /// <summary>
@@ -14,6 +14,7 @@ namespace Platformer.Mechanics
     /// </summary>
     public class PlayerController : KinematicObject
     {
+        public Image dmgIndicator;
         public AudioClip jumpAudio;
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
@@ -102,6 +103,8 @@ namespace Platformer.Mechanics
                 {
                     Schedule<PlayerDeath>();
                 }
+
+                
             }
             else
             {
@@ -110,8 +113,15 @@ namespace Platformer.Mechanics
             UpdateJumpState();
             base.Update();
 
-   
+            RefreshUI();
         }
+
+        void RefreshUI()
+        {
+            //dmgIndicator.gameObject.GetComponent<OpacImage>().alpha = health.actualHealth / health.maxHealth;
+            dmgIndicator.gameObject.GetComponent<OpacImage>().ChangeAlpha(1 - ((float)health.actualHealth / (float)health.maxHealth));
+        }
+
 
         void UpdateJumpState()
         {
