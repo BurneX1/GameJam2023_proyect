@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 8557068713278686333}
   m_Layer: 0
   m_Name: Nivel_1_infectadoAtlas_5
-  m_TagString: Untagged
+  m_TagString: InfectedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -175,7 +175,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: -5370668064442899592, guid: 678621afcfcbe4240b71f39ad5c48735, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

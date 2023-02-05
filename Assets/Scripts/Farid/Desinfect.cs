@@ -6,13 +6,16 @@ using System;
 
 public class Desinfect : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+    }
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         

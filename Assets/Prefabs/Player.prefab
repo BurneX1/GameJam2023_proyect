@@ -15,8 +15,9 @@ GameObject:
   - component: {fileID: 1020896257657750386}
   - component: {fileID: 50915408107096866}
   - component: {fileID: 8509783501685719824}
-  - component: {fileID: 6082575806313374961}
+  - component: {fileID: 2835096781857833213}
   - component: {fileID: 1824045667}
+  - component: {fileID: 5191465277371879937}
   m_Layer: 13
   m_Name: Player
   m_TagString: Player
@@ -56,12 +57,14 @@ MonoBehaviour:
   jumpAudio: {fileID: 8300000, guid: 67975c08d56ceb147bad38572d805aa8, type: 3}
   respawnAudio: {fileID: 8300000, guid: e18959d46b63f3c4c8cc020a433cf848, type: 3}
   ouchAudio: {fileID: 8300000, guid: 6c05149e5a2fba64ba172e25a61074b7, type: 3}
+  habMngr: {fileID: 0}
   maxSpeed: 3
   jumpTakeOffSpeed: 7
   jumpState: 0
   collider2d: {fileID: 0}
   audioSource: {fileID: 0}
   health: {fileID: 0}
+  atk: {fileID: 0}
   controlEnabled: 1
 --- !u!212 &212064061491315838
 SpriteRenderer:
@@ -149,6 +152,7 @@ MonoBehaviour:
   - Enemy
   atk: {fileID: 11400000, guid: e0dbc96caeb9f2042a8f77a516fa62bf, type: 2}
   collideObj: {fileID: 0}
+  dir: 1
 --- !u!50 &50915408107096866
 Rigidbody2D:
   serializedVersion: 4
@@ -266,7 +270,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &6082575806313374961
+--- !u!114 &2835096781857833213
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -275,10 +279,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1208144871472054}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Script: {fileID: 11500000, guid: ce068c40840bba040a31c1eca3188035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 1
+  maxHealth: 100
+  actualHealth: 100
 --- !u!61 &1824045667
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -305,3 +310,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.54}
   m_EdgeRadius: 0
+--- !u!114 &5191465277371879937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208144871472054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800ee56e5ebc3d14d988bf0af568c167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 5
+  dmgTagsArray:
+  - Parasite
+  timePerDmg: 0.5
+  disableOnHit: 0
