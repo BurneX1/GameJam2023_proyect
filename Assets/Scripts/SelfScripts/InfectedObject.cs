@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InfectionManager : MonoBehaviour
+public class InfectedObject : MonoBehaviour
 {
     public BaseLife parasiteHealth;
     public float fadeTime = 1f;
