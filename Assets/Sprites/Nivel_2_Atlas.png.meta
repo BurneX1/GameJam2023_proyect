@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: f97266330ab4185419e8382f1ac56a2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6364456608994330918
+    second: Nivel_2_Atlas_0
+  - first:
+      213: -149061465451368840
+    second: Nivel_2_Atlas_1
+  - first:
+      213: 5205822567741865482
+    second: Nivel_2_Atlas_2
+  - first:
+      213: 3037166508934587019
+    second: Nivel_2_Atlas_3
+  - first:
+      213: -4133293364560527768
+    second: Nivel_2_Atlas_4
+  - first:
+      213: -6668311791056479846
+    second: Nivel_2_Atlas_5
+  - first:
+      213: 3448508125617177829
+    second: Nivel_2_Atlas_6
+  - first:
+      213: -7977067950709378840
+    second: Nivel_2_Atlas_7
+  - first:
+      213: -7637501946850408613
+    second: Nivel_2_Atlas_8
+  - first:
+      213: 6956519053441068536
+    second: Nivel_2_Atlas_9
+  - first:
+      213: 8914375761115068446
+    second: Nivel_2_Atlas_10
+  - first:
+      213: 6024660085808206149
+    second: Nivel_2_Atlas_11
+  - first:
+      213: -1986282648115223372
+    second: Nivel_2_Atlas_12
+  - first:
+      213: -7903700034073076165
+    second: Nivel_2_Atlas_13
+  - first:
+      213: 353873685816584613
+    second: Nivel_2_Atlas_14
+  - first:
+      213: -1138008958606731691
+    second: Nivel_2_Atlas_15
+  - first:
+      213: 8026162974804332664
+    second: Nivel_2_Atlas_16
+  - first:
+      213: -5536640536279675368
+    second: Nivel_2_Atlas_17
+  - first:
+      213: 8806527691163838311
+    second: Nivel_2_Atlas_18
+  - first:
+      213: -4654484041724689959
+    second: Nivel_2_Atlas_19
+  - first:
+      213: 7897022963141678911
+    second: Nivel_2_Atlas_20
+  - first:
+      213: -7111280952578320050
+    second: Nivel_2_Atlas_21
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1249
+        width: 152
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad671883f68eca7a0800000000000000
+      internalID: -6364456608994330918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1604
+        width: 1377
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e621e036d6eedf0800000000000000
+      internalID: -149061465451368840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1653
+        width: 333
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e37f13b0cce3840800000000000000
+      internalID: 5205822567741865482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1262
+        width: 400
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8262c829de262a20800000000000000
+      internalID: 3037166508934587019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1246
+        width: 416
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ef3e4859793a6c0800000000000000
+      internalID: -4133293364560527768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1528
+        width: 300
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99978a91c56573a0800000000000000
+      internalID: -6668311791056479846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1414
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4c5788edf8bdf20800000000000000
+      internalID: 3448508125617177829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1246
+        width: 391
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e070d096f2cb4190800000000000000
+      internalID: -7977067950709378840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 956
+        width: 554
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5780aec174220690800000000000000
+      internalID: -7637501946850408613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 883
+        width: 415
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd679dc8358a8060800000000000000
+      internalID: 6956519053441068536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1058
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18bd9b368936bb70800000000000000
+      internalID: 8914375761115068446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 913
+        width: 460
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54192139d64eb9350800000000000000
+      internalID: 6024660085808206149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 671
+        width: 260
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4e19f847e4f64e0800000000000000
+      internalID: -1986282648115223372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 762
+        width: 398
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ed4d1d1ba605290800000000000000
+      internalID: -7903700034073076165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 763
+        width: 86
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9a47a0e3639e400800000000000000
+      internalID: 353873685816584613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 765
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556980fa1eaf430f0800000000000000
+      internalID: -1138008958606731691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 598
+        width: 459
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870da9e73b8a26f60800000000000000
+      internalID: 8026162974804332664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 499
+        width: 797
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e850244c6e923b0800000000000000
+      internalID: -5536640536279675368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 647
+        width: 100
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7672670b642173a70800000000000000
+      internalID: 8806527691163838311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 559
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d18640bc63f76fb0800000000000000
+      internalID: -4654484041724689959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 14
+        width: 935
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3799257b8cd79d60800000000000000
+      internalID: 7897022963141678911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_2_Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 14
+        width: 1006
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49519b96a7af4d90800000000000000
+      internalID: -7111280952578320050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
