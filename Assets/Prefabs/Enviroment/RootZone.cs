@@ -35,13 +35,17 @@ public class RootZone : MonoBehaviour
         EnemyController[] enemies = (EnemyController[])FindObjectsOfType(typeof(EnemyController));
         //Debug.Log("Number of enemies: " + enemies.Length );
 
+        float rootZoneStart = this.transform.position.x;
         float rootZoneEnd = this.transform.position.x + 10;
+        Debug.Log("Start: " + rootZoneStart + " End: " + rootZoneEnd);
+
         //Debug.Log("Location of root: " + rootZoneEnd);
 
         int countEnemies = 0;
         for (int i = 0; i < enemies.Length; i++)
         {
-            if (enemies[i].transform.position.x < rootZoneEnd &&
+            if (rootZoneStart <= enemies[i].transform.position.x &&
+                enemies[i].transform.position.x < rootZoneEnd &&
                 enemies[i]._collider.enabled)// FIX LATER, deberia haber una propiedad o el objeto ser destruido
                 countEnemies++;
         } 
@@ -51,7 +55,7 @@ public class RootZone : MonoBehaviour
 
         int clampCountEnemies = countEnemies > 4 ? 4 : countEnemies;
 
-        rootHealt = 1.0f - countEnemies / 4.0f;
+        rootHealt = 1.0f - clampCountEnemies / 4.0f;
         Debug.Log("rootHealt: " + rootHealt);
 
 
