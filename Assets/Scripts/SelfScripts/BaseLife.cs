@@ -10,6 +10,8 @@ public class BaseLife : MonoBehaviour
     [SerializeField]
     public int actualHealth;
 
+
+    public bool IsAlive => actualHealth > 0;
     public event Action Damage = delegate { };
     private void Awake()
     {
