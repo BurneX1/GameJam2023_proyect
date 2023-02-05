@@ -19,3 +19,4 @@ MonoBehaviour:
   overrAnim: {fileID: 0}
   dmg: 15
   icon: {fileID: 21300000, guid: 12a73f1b3e53f3840b64c010d57df085, type: 3}
+  audioClip: {fileID: 8300000, guid: 36695376ce8feea4e88e94ebd64f0890, type: 3}
