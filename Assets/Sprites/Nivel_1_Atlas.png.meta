@@ -47,6 +47,9 @@ TextureImporter:
   - first:
       213: 4992932592137452480
     second: Nivel_1_Atlas_14
+  - first:
+      213: -6444674986783528905
+    second: Nivel_1_Atlas_15
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -459,6 +462,27 @@ TextureImporter:
       bones: []
       spriteID: 0cbb2d52db57a4540800000000000000
       internalID: 4992932592137452480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel_1_Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 9
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7382cefae3aef86a0800000000000000
+      internalID: -6444674986783528905
       vertices: []
       indices: 
       edges: []
