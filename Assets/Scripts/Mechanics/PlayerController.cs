@@ -84,6 +84,7 @@ namespace Platformer.Mechanics
                     audioSource.PlayOneShot(atk.atk.audioClip);
                     //atk.atk.audioAtaque.Play();
 
+                    animator.SetTrigger("Atk");
                     audioSource.Play();
                 }
 
