@@ -33,7 +33,7 @@ public class RootZone : MonoBehaviour
     {
         if ((DateTime.Now - lastUpdate).Milliseconds > 100)
             UpdateRootState();
-        //CheckSelfHealth();
+        CheckSelfHealth();
     }
 
     private void UpdateRootState()
@@ -73,8 +73,14 @@ public class RootZone : MonoBehaviour
 
     private void CheckSelfHealth()
     {
-        if(healthCheck == false && rootHealt >= 1)
+        if(rootHealt < 1)
         {
+            return;
+        }
+
+        if(healthCheck == false)
+        {
+            Debug.Log(gameObject.name + " " + "healthCheckrealized");
             healthCheck = true;
             onClearEvent.Invoke();
         }
