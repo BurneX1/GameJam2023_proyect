@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2058799622}
   - component: {fileID: 2058799621}
   - component: {fileID: 2058799620}
+  - component: {fileID: 8474954337754016814}
   m_Layer: 0
   m_Name: Parasite
   m_TagString: Enemy
@@ -72,8 +73,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce068c40840bba040a31c1eca3188035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 25
-  actualHealth: 25
+  maxHealth: 100
+  actualHealth: 100
 --- !u!114 &2058799621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +143,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &8474954337754016814
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058799618}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &342500396806619569
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,9 +258,9 @@ GameObject:
   m_Component:
   - component: {fileID: 342500397292258684}
   - component: {fileID: 342500397292258687}
-  - component: {fileID: 850485430}
+  - component: {fileID: 5823008804080637695}
   m_Layer: 0
-  m_Name: House2 (1)
+  m_Name: House2 infested
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -309,7 +331,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &850485430
+--- !u!114 &5823008804080637695
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -318,7 +340,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 342500397292258685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f0210d39a639384dbf12b117dc7b2b9, type: 3}
+  m_Script: {fileID: 11500000, guid: b77be15edf7eefd4ba54182d09a5b2af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   parasiteHealth: {fileID: 2058799622}

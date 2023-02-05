@@ -6,7 +6,7 @@ public class InfectedObject : MonoBehaviour
 {
     public BaseLife parasiteHealth;
     public float fadeTime = 1f;
-    private float infectionPercentage;
+    public float infectionPercentage;
 
     void Start()
     {
