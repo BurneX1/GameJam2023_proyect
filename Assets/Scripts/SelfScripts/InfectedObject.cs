@@ -5,6 +5,7 @@ using UnityEngine;
 public class InfectedObject : MonoBehaviour
 {
     public BaseLife parasiteHealth;
+    public GameObject parasite;
     public float fadeTime = 1f;
     public float infectionPercentage;
 
@@ -16,6 +17,11 @@ public class InfectedObject : MonoBehaviour
     void Update()
     {
         infectionPercentage = 1.0f * parasiteHealth.actualHealth / parasiteHealth.maxHealth;
+
+        if (parasiteHealth.actualHealth <= 0)
+        {
+            parasite.SetActive(false);
+        }
 
         /*
         Debug.Log(parasiteHealth.actualHealth);
