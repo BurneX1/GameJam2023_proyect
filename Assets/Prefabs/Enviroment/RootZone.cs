@@ -35,6 +35,8 @@ public class RootZone : MonoBehaviour
         lastUpdate = DateTime.Now;
 
         EnemyController[] enemies = (EnemyController[])FindObjectsOfType(typeof(EnemyController));
+        InfectedObject[] infected = (InfectedObject[])FindObjectsOfType(typeof(InfectedObject));
+
         //Debug.Log("Number of enemies: " + enemies.Length );
 
         float rootZoneStart = this.transform.position.x;
@@ -51,7 +53,13 @@ public class RootZone : MonoBehaviour
                 enemies[i]._collider.enabled)// FIX LATER, deberia haber una propiedad o el objeto ser destruido
                 countEnemies++;
         } 
-
+        for (int i = 0; i < infected.Length; i++)
+        {
+            if (rootZoneStart <= infected[i].transform.position.x &&
+                infected[i].transform.position.x < rootZoneEnd &&
+                infected[i].infectionPercentage > 0)
+                countEnemies++;
+        } 
        // Object[] enemies = ObjectsOfType(typeof(EnemyController));
         //Debug.Log("Number of enemies in zone: " + countEnemies);
 
