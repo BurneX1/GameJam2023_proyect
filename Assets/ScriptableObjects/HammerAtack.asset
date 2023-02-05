@@ -17,5 +17,5 @@ MonoBehaviour:
   posVariation: {x: 0, y: 0.62}
   hitRadio: {x: 3.66, y: 2.32}
   overrAnim: {fileID: 0}
-  dmg: 0
+  dmg: 20
   icon: {fileID: 21300000, guid: 2c770ab2ac73b5a4abec3a9d6b016e44, type: 3}

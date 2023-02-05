@@ -49,10 +49,11 @@ public class Attack : MonoBehaviour
         if(timerOn)
         {
             timer += Time.deltaTime;
-            if(timer>=atk.atkDur)
+            if (timer >= atk.atkDur)
             {
                 timer = 0;
                 StopAtack();
+                timerOn = false;
             }
         }
     }

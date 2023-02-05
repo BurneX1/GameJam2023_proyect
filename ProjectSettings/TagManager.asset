@@ -7,8 +7,7 @@ TagManager:
   - Ground
   - Objects
   - TutorialRequirement
-  - Parasite
-  - InfectedObject
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -16,8 +15,8 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Ignore
   - 
   - 
   - 

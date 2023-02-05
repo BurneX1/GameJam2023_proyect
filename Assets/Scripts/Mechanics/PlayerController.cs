@@ -33,7 +33,7 @@ namespace Platformer.Mechanics
         private bool stopJump;
         /*internal new*/ public Collider2D collider2d;
         /*internal new*/ public AudioSource audioSource;
-        public Health health;
+        public BaseLife health;
         public Attack atk;
         public bool controlEnabled = true;
 
@@ -47,7 +47,7 @@ namespace Platformer.Mechanics
 
         void Awake()
         {
-            health = GetComponent<Health>();
+            health = GetComponent<BaseLife>();
             audioSource = GetComponent<AudioSource>();
             collider2d = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
@@ -78,9 +78,24 @@ namespace Platformer.Mechanics
                         atk.dir = -1;
                     }
                 }
-                if(Input.GetKeyDown(KeyCode.Q))
+                if(Input.GetKeyDown(KeyCode.W))
                 {
                     atk.Atack();
+                }
+
+                if(Input.GetKeyDown(KeyCode.E))
+                {
+                    atk.atk = habMngr.aviableAttacks[0];
+                }
+
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    habMngr.Rote();
+                }
+
+                if (health.actualHealth <= 0)
+                {
+                    Schedule<PlayerDeath>();
                 }
             }
             else
@@ -89,6 +104,8 @@ namespace Platformer.Mechanics
             }
             UpdateJumpState();
             base.Update();
+
+   
         }
 
         void UpdateJumpState()
