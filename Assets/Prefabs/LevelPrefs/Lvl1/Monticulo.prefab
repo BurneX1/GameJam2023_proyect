@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -3953892868905117321, guid: 678621afcfcbe4240b71f39ad5c48735, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -92,6 +92,8 @@ GameObject:
   m_Component:
   - component: {fileID: 407031650249610574}
   - component: {fileID: 1685424534660862105}
+  - component: {fileID: 1712293292655737168}
+  - component: {fileID: 4698903808109600618}
   m_Layer: 0
   m_Name: Monticulo
   m_TagString: Untagged
@@ -153,7 +155,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 178918795007053739, guid: 786df6b3fd0d09c46bd92f6c20531a95, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -165,3 +167,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1712293292655737168
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7191469727179988516}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &4698903808109600618
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7191469727179988516}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.35, y: 0.9}
+    newSize: {x: 2.35, y: 0.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.945, y: -0.35999998}
+      - {x: 1.105, y: -0.35}
+      - {x: 1.135, y: -0.32}
+      - {x: 1.155, y: -0.28}
+      - {x: 1.155, y: -0.24}
+      - {x: 1.0749999, y: -0.16}
+      - {x: 1.0749999, y: -0.099999994}
+      - {x: 1.025, y: -0.049999997}
+      - {x: 0.97499996, y: 0.06}
+      - {x: 0.935, y: 0.19}
+      - {x: 0.835, y: 0.34}
+      - {x: 0.715, y: 0.35}
+      - {x: 0.655, y: 0.44}
+      - {x: 0.445, y: 0.44}
+      - {x: 0.175, y: 0.42}
+      - {x: 0.055, y: 0.39999998}
+      - {x: -0.085, y: 0.35999998}
+      - {x: -0.255, y: 0.32999998}
+      - {x: -0.36499998, y: 0.31}
+      - {x: -0.59499997, y: 0.19999999}
+      - {x: -0.835, y: 0.07}
+      - {x: -1.145, y: -0.19}
+      - {x: -1.155, y: -0.25}
+      - {x: -1.155, y: -0.32}
+      - {x: -1.045, y: -0.38}
+      - {x: -0.995, y: -0.39}
+      - {x: -0.825, y: -0.39}
+      - {x: -0.765, y: -0.37}
+      - {x: -0.72499996, y: -0.44}
+      - {x: -0.59499997, y: -0.45}
+      - {x: -0.45499998, y: -0.41}
+      - {x: -0.295, y: -0.39}
+      - {x: -0.225, y: -0.41}
+      - {x: -0.005, y: -0.39999998}
+      - {x: 0.125, y: -0.41}
+      - {x: 0.155, y: -0.45}
+      - {x: 0.275, y: -0.45}
+      - {x: 0.345, y: -0.42999998}
+      - {x: 0.515, y: -0.39999998}
+      - {x: 0.875, y: -0.35}

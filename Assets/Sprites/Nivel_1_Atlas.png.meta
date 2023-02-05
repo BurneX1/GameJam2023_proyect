@@ -257,13 +257,13 @@ TextureImporter:
       name: Nivel_1_Atlas_5
       rect:
         serializedVersion: 2
-        x: 323
-        y: 664
-        width: 99
-        height: 99
+        x: 324
+        y: 665
+        width: 97
+        height: 97
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
