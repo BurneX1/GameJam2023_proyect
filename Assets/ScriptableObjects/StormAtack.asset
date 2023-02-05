@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atackName: Storm
   atkDur: 0.5
-  posVariation: {x: 2, y: 1.5}
+  posVariation: {x: 1.42, y: 1.5}
   hitRadio: {x: 1, y: 4}
   overrAnim: {fileID: 0}
   dmg: 10

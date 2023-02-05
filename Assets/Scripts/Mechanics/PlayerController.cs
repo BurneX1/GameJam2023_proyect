@@ -92,6 +92,11 @@ namespace Platformer.Mechanics
                 {
                     habMngr.Rote();
                 }
+
+                if (health.actualHealth <= 0)
+                {
+                    Schedule<PlayerDeath>();
+                }
             }
             else
             {
@@ -99,6 +104,8 @@ namespace Platformer.Mechanics
             }
             UpdateJumpState();
             base.Update();
+
+   
         }
 
         void UpdateJumpState()

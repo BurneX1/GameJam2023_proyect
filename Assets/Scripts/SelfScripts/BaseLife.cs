@@ -11,7 +11,7 @@ public class BaseLife : MonoBehaviour
     public int actualHealth;
 
 
-    public bool IsAlive => actualHealth > 0;
+    public bool IsAlive => actualHealth >= 0;
     public event Action Damage = delegate { };
     private void Awake()
     {
