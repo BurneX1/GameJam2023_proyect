@@ -8,9 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 03f654ea9cfaa59418c357b1037ab3ee
-  - enabled: 0
-    path: Assets/Scenes/TestScenes/AleTestScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Level01.unity
     guid: 37b02bc3ee6e44e4d9f7459bde77c204
@@ -18,12 +15,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Level02.unity
     guid: 0abd4b2ce53ddce42bf7a82dd15ed332
   - enabled: 1
-    path: Assets/Scenes/Cinematica1.1.unity
-    guid: 7129cd2ee8cbe01429d5af14807ea4f0
-  - enabled: 1
     path: Assets/Scenes/Cinematica2.unity
     guid: 38b993fd15eb0624b8e9c2dbb22c97d1
   - enabled: 1
     path: Assets/Scenes/Cinematica3.unity
     guid: 628ee88dee3893d49adaee3ea8e7000c
+  - enabled: 1
+    path: Assets/Scenes/Cinematica1.2.unity
+    guid: 145e33e537f05cf4ab3c4eba1de05087
+  - enabled: 1
+    path: Assets/Scenes/Cinematica1.3.unity
+    guid: 2c3f473ce88d49148817795910ec63a7
+  - enabled: 1
+    path: Assets/Scenes/Cinematica1.4.unity
+    guid: 683206de2faf9b24c84e24eb8069b15e
+  - enabled: 1
+    path: Assets/Scenes/Cinematica1.1.unity
+    guid: a0c71381cb5536a41a634e7809470b6c
   m_configObjects: {}

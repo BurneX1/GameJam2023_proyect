@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atackName: Mele
   atkDur: 0.2
-  posVariation: {x: 1, y: 0}
+  posVariation: {x: 0.4, y: 0}
   hitRadio: {x: 1, y: 1}
   overrAnim: {fileID: 0}
   dmg: 15

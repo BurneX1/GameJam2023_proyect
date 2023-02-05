@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88943c57a90876b48a75bb5be6d8c742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spd: 1
+  spd: 0.01
   dir: -1
   letFall: 1
   layerCheckDistance: 0.8
