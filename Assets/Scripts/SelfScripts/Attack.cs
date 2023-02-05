@@ -26,11 +26,14 @@ public class Attack : MonoBehaviour
             collideObj.name = "Collider";
             collideObj.SetActive(false);
             collideObj.AddComponent<BoxCollider2D>();
+            collideObj.AddComponent<Rigidbody2D>();
             collideObj.AddComponent<TrgDamage>();
             collideObj.GetComponent<TrgDamage>().dmgTagsArray = colllisionTag;
             collideObj.GetComponent<TrgDamage>().damage = atk.dmg;
             collideObj.GetComponent<TrgDamage>().disableOnHit = true;
             collideObj.GetComponent<BoxCollider2D>().isTrigger = true;
+            collideObj.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+            //collideObj.GetComponent<Rigidbody2D>().;
             //Añadir componente de triger de daño
         }
 
